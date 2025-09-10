@@ -11,8 +11,6 @@ sidebar_position: 2
 
 对于出金、入金以及公司银行帐单对接过程中，都会使用到银行卡，该功能是一个基础资讯配置的功能。所涉相关模关系组主要如下：
 
-<img src="/assets/P5VTwJAiChg4GMb9cVQclD7Wngd-board.png"/>
-
 # 二、操作说明
 
 无论是在 APP 新建银行卡或后台（WBO）新建银行卡，需要先将银行卡的属性进行维护，入银行卡所在的地区以及所属的银行。
@@ -85,9 +83,9 @@ sidebar_position: 2
 
 <img src="/assets/DhT1bf3GBosoANxxVULcDMAAnwb.png" src-width="2862" src-height="800" align="center"/>
 
-- 关联客户加款明细后或者可以不关联入金记录，系统将自动将入金见证状态设为「已见证」
+- 关联客户加款明细后，系统将自动将入金见证状态设为「已见证」
 
-<img src="/assets/SQEZbTMIHoyzCuxFWE2cVM2Bn2b.png" src-width="3314" src-height="1748" align="center"/>
+<img src="/assets/VRJNbJ7YwoJAUxxbs2scnkHQnSQ.png" src-width="2354" src-height="1224" align="center"/>
 
 <img src="/assets/FEx9bqjA4oneQuxII94cqlvgnWt.png" src-width="2360" src-height="676" align="center"/>
 
