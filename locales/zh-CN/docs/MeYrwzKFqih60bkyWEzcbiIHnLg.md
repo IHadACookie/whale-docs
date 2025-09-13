@@ -15,11 +15,7 @@ Whale 系统提供了换汇的基础参数设定与业务主流程操作功能�
 
 整体业务流程如下：
 
-<img src="/assets/NQiowfLl1hFtrlbtRbjcXD2GnQg-board.png"/>
-
 系统功能架构
-
-<img src="/assets/BmIKwr6ZnhNEy5bASdJcLgTYnAh-board.png"/>
 
 ## 前置条件
 
@@ -33,10 +29,6 @@ Whale 系统提供了换汇的基础参数设定与业务主流程操作功能�
 <img src="/assets/OZUQbEJS9oWUv5x66NPcTyYZnQK.png" src-width="3822" src-height="1850" align="center"/>
 
 <img src="/assets/NLBabyI57oXTZ6xfpErcN8fPn4e.png" src-width="3820" src-height="1864" align="center"/>
-
-1. 设定相应币种的汇率精度、金额精度以及金额取数逻辑
-
-<img src="/assets/G9PkbioGAoPiG2xy2Mwcw8DinEf.png" src-width="3266" src-height="604" align="center"/>
 
 1. 然后先设定支援的币种对并制定相应的换汇策略。如果使用汇兑池换汇策略，还需要设定汇兑池的换汇额度。详见第二节操作说明。
 
@@ -59,13 +51,13 @@ Whale 系统提供了换汇的基础参数设定与业务主流程操作功能�
 
 点选【新建】，选择兑入币种与兑出币种。其中：兑出币种为单选，兑入币种为多选
 
-<img src="/assets/FJxwbNeMSowFbYx8Xfkc3w5HnYb.png" src-width="3306" src-height="1242" align="center"/>
+<img src="/assets/W9hdbZiGNoT1xPxl1nQcysDEnKf.png" src-width="3342" src-height="1248" align="center"/>
 
-币种设定完成后，系统将以卡片的形式展示，针对已设定完成的币种，用户可依实际情况进行【设置默认币种对】、【编辑】、【删除】对应的币种。
+币种设定完成后，系统将以卡片的形式展示，针对已设定完成的币种，用户可依实际情况进行【编辑】、【删除】对应的币种。
 
 ### 换汇策略
 
-指规范客户汇兑提交到成交整体流程的策略，目前包括两种策略：「汇兑池换汇」和「渠道换汇」。其中：
+指规范客户汇兑提交到成交整体流程的策略，目前包括两种策略：「汇兑池换汇」和「银行换汇」。其中：
 
 <table>
 <colgroup>
@@ -83,7 +75,7 @@ Whale 系统提供了换汇的基础参数设定与业务主流程操作功能�
 
 点选【新建】，在唤出的弹跳窗中，依照「服务策略设定→汇兑类型设定→适用时段设定→渠道设定→覆盖的币种对设定」顺序依序填写。
 
-<img src="/assets/AXiRbNErrogJR5xF34Mcypcmn7f.png" src-width="3272" src-height="1506" align="center"/>
+<img src="/assets/Pt7RbTGEqoqQz0x7uZocYk0bnyc.png" src-width="3400" src-height="1837" align="center"/>
 
 - 注意事项：
     - 服务时段可以进行多选，互相不可有交集，系统会根据使用者选择的时段生效服务策略。
@@ -91,7 +83,7 @@ Whale 系统提供了换汇的基础参数设定与业务主流程操作功能�
 
 换汇策略设定完成后，使用者可依实际业务需求进行【编辑】与【启用/停用】
 
-<img src="/assets/AWFRbo7eqoxyuaxx5qlcwOjlnie.png" src-width="3280" src-height="1532" align="center"/>
+<img src="/assets/CW5gbsnGZoi4bJxesGxcs6Jknrg.png" src-width="3286" src-height="946" align="center"/>
 
 ### 换汇池额度配置
 
@@ -114,29 +106,8 @@ Whale 系统提供了换汇的基础参数设定与业务主流程操作功能�
     - 加点的方式有「值」与「比值」2 种方式
     - 「参考汇率」上设定加点数值：
     <img src="/assets/S454bEII8omUagx8cNKcwQfRnZb.png" src-width="3320" src-height="1760" align="center"/>
-    - 参考汇率加点是指在提交换汇时，根据汇兑的汇率基础上进行加点，计算举例如下：
-        1. 根据用户选择的币种兑，比如 USD 兑换 CNH，计算出未加点的汇率=7.8147➗1.095=7.1367（汇率小数点截取 4 位，汇率精度取自币种配置）
-            参考汇率公式=兑出币种的买入价➗兑入币种的卖出价
-        |   |   |   |   |
-|---|---|---|---|
-|基准货币 | 折算币种 | 买入价 | 卖出价|
-|HKD|CNH|1.0962|1.095|
-|HKD|USD|7.8147|7.8132|
-        1. 根据 i 中的兑出币种选择参考加点，比如 USD 兑换 CNH，计算结果如下：
-        <table>
-        <colgroup>
-        <col width="137"/>
-        <col width="423"/>
-        </colgroup>
-        <tbody>
-        <tr><td><p><b>加点方式</b></p></td><td><p><b>USD 兑换 CNH 加点值</b></p></td></tr>
-        <tr><td><p>比值 0.001</p></td><td><p>=USD 兑换 CNH 未加点的参考汇率 - 比值=7.1367-0.001=7.1366</p></td></tr>
-        <tr><td><p>比率 0.1%</p></td><td><p>=USD 兑换 CNH 未加点的参考汇率（1-比率）=7.1367（1-0.1%）=7.1295</p></td></tr>
-        </tbody>
-        </table>
     - 「成交汇率」上设定加点数值：
     <img src="/assets/BNrZbW1ZPoQI6CxAPMmc8HI6nYc.png" src-width="2360" src-height="1642" align="center"/>
-    - 成交汇率加点是指在客户汇兑成交时，根据汇兑的汇率基础上进行成交加点，举例参考参考汇率加点
 
 ### 大额设置
 
@@ -158,8 +129,6 @@ Whale 系统提供了换汇的基础参数设定与业务主流程操作功能�
 ### 客户汇兑
 
 换汇流程图
-
-<img src="/assets/Xel4wsCbCh8XyAbTS93cM870nyg-board.png"/>
 
 详细操作顺序，可参考[快速上手](./Oq3wwTJvJiqpB6kWoz2cy5jFnFd)描述
 
