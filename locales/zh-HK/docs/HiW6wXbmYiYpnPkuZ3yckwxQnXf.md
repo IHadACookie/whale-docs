@@ -15,8 +15,6 @@ Whale 系統包含了處理入金申請、匹配銀行流水、入金審核、�
 
 因不同券商公司對於入金的要求不同，有些券商要求快速入金，有些公司要求精準匹配銀行流水後再入金，綜合考慮了上述因素，系統兼容了 2 套入金的流程，如下：
 
-<img src="/assets/SsSPwZG0oh6yXbbepuxcYInsnke-board.png" src-width="809" src-height="167"/>
-
 ## 前置条件
 
 您需要獲取以下授權後方可正常使用系統功能
@@ -101,14 +99,13 @@ Whale 系統包含了處理入金申請、匹配銀行流水、入金審核、�
 
 如果客戶需要進行 eDDA 入金，則需要進行 eDDA 授权，如果客戶进行 eDDA 授权之后，則後臺可以查到對應記錄。
 
-<img src="/assets/Nbo3bOe0io6NQoxqFplcCne1n2f.png" src-width="3282" src-height="838" align="center"/>
+<img src="/assets/UsNJb31KZoqkElxU7L2c9BhQnid.png" src-width="3248" src-height="870" align="center"/>
 
 <b>操作按鈕說明</b>
 
 - 刷新：重新獲取最新的 eDDA 的授權記錄
 - 備註：對授權記錄進行配置
 - 修改狀態：修改授權記錄的狀態
-- 刪除：對於授權中的授權記錄可以進行人工後台刪除
 
 ## 銀行相關信息配置
 
@@ -121,7 +118,7 @@ Whale 系統包含了處理入金申請、匹配銀行流水、入金審核、�
 <p>款項管理&gt;App 管理&gt;卡所屬銀行</p>
 </div>
 
-<img src="/assets/GMfcbRsw7oxBruxvhzdcURGonsd.png" src-width="3284" src-height="762" align="center"/>
+<img src="/assets/UOVXbO2yqo3QdzxXBDlcS61en5d.png" src-width="3260" src-height="866" align="center"/>
 
 <b>操作按鈕說明</b>
 
@@ -135,7 +132,7 @@ Whale 系統包含了處理入金申請、匹配銀行流水、入金審核、�
 <p>款項管理&gt;App 管理&gt;用戶綁卡 - 國家/地區</p>
 </div>
 
-<img src="/assets/RXoqbKWNZofQqixXwW4cEL2enEe.png" src-width="3260" src-height="774" align="center"/>
+<img src="/assets/GeynbddGsoMSjNxxDXoceiYhnPd.png" src-width="3282" src-height="814" align="center"/>
 
 ### 3.銀行區域列表
 
@@ -144,11 +141,11 @@ Whale 系統包含了處理入金申請、匹配銀行流水、入金審核、�
 <p>款項管理&gt;App 管理&gt;銀行區域列表</p>
 </div>
 
-<img src="/assets/S3tmbT8Vio1qcYxtpz6ctPSrnAe.png" src-width="3290" src-height="978" align="center"/>
+<img src="/assets/XFM2bgF7goWUyrxyoPRcImLun2g.png" src-width="3302" src-height="694" align="center"/>
 
 <b>操作按鈕說明</b>
 
-- 新建：單筆增加銀行區域列表信息
+- 新增：單筆增加銀行區域列表信息
 - 編輯：對於已添加的銀行區域列表信息進行編輯
 - 删除：删除銀行區域列表信息
 
@@ -158,32 +155,11 @@ Whale 系統包含了處理入金申請、匹配銀行流水、入金審核、�
 
 ### 1.入金指引
 
-<img src="/assets/AK7jbhzoqonEhIxXa0kcfu90noe.png" src-width="3286" src-height="980" align="center"/>
+<img src="/assets/IiJQb7nEWoXEJIx846ZcTwG6nuh.png" src-width="3252" src-height="956" align="center"/>
 
 ### 2.入金參數
 
-<div class="callout callout-bg-6 callout-border-6">
-<div class='callout-emoji'>⚓</div>
-<p>款項管理&gt;App 管理&gt;入金參數</p>
-</div>
-
-<img src="/assets/XoehbngXxoqlidxs115cGbUQnje.png" src-width="3260" src-height="1726" align="center"/>
-
-<b>操作按鈕說明</b>
-
-- 新建：單筆新建入金參數
-- 編輯：對於已添加的入金參數列表信息進行編輯
-- 刪除：刪除入金參數列表信息
-- 上架：是指配置的入金參數需應用於客戶端展示，則可以將參數上架
-- 下架：是指配置的入金參數無法適用於客戶端展示，則可以將參數下架
-- 複製：通過複製原本參數信息進行快速新建新的入金參數
-- 審批：對於入金參數如果開通了工單審批，則上述的所有操作提交之後，需要工單審批
-
-<b>多家收款銀行配置</b>
-
-- 如客戶端需要根據客戶選擇的銀行，在同一個入金方式下需要展示多個收款銀行，則可以參考如下截圖的配置。
-
-<img src="/assets/JTldbcQgio6BvKxqiw5c8EYOnMz.png" src-width="3278" src-height="706" align="center"/>
+<img src="/assets/JMA6be0HZoGsPQxof8GcOtuinvf.png" src-width="3300" src-height="852" align="center"/>
 
 # 入金操作
 
