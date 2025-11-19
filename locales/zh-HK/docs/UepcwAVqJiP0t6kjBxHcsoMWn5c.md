@@ -82,7 +82,7 @@ sidebar_position: 2
 
 頁面查詢結果如下圖：
 
-<img src="/assets/CH05bnAhCoEGfUxQXJxc9R3snug.png" src-width="3324" src-height="3386" align="center"/>
+<img src="/assets/YDUGbklSyo3HMwxHix2cMvepnQd.png" src-width="1274" src-height="1280" align="center"/>
 
 <b>頁面說明</b>
 
@@ -109,9 +109,9 @@ sidebar_position: 2
 <img src="/assets/A7HibUnVrolrjLxlU51cn7cjnue.png" src-width="2570" src-height="988" align="center"/>
 
 1. 賬戶查詢頁面會展示「最近瀏覽」，支持快速點擊查看結果
-2. 查詢結果：側邊欄展示查詢結果，默認展示資產總覽頁，可切換頁面查看客戶資料、銀行卡信息、計費明細、出入金、轉倉流水等。側邊欄信息同快捷查詢結果
+2. 查詢結果：側邊欄展示查詢結果，默認展示資產總覽頁，可切換頁面查看客戶資料、銀行卡信息、計費明細、出入金和磚倉流水。側邊欄信息同快捷查詢結果
 
-<img src="/assets/XoJZbTglmozGNzxzCIycefLEnkC.png" src-width="3272" src-height="1750" align="center"/>
+<img src="/assets/WuXFbXkTXorIRCx8X83cEHknnsh.png" src-width="3304" src-height="1666" align="center"/>
 
 賬戶快捷查詢入口：
 
@@ -264,14 +264,12 @@ sidebar_position: 2
 <b>操作說明</b>：
 
 1. 手工調賬主頁面：根據不同調賬類型 (現金/股票/基金/債劵/OTC 其他/虛擬資產）分 Tab 頁展示，如需調賬需要根據調賬的資產類型進入對應頁面
+    <img src="/assets/PJVkbUzlyoV1T8xQdIncyM6HnFc.png" src-width="3342" src-height="1152" align="center"/>
 
-<img src="/assets/PJVkbUzlyoV1T8xQdIncyM6HnFc.png" src-width="3342" src-height="1152" align="center"/>
+2. 新建手工調賬：點擊【新建】，即可打開新增調賬頁面
+    <img src="/assets/ZZ3Jb4yRyonh62xW0Gock16gnQg.png" src-width="3220" src-height="958" align="center"/>
 
-1. 新建手工調賬：點擊【新建】，即可打開新增調賬頁面
-
-<img src="/assets/ZZ3Jb4yRyonh62xW0Gock16gnQg.png" src-width="3220" src-height="958" align="center"/>
-
-1. 填寫調賬信息：
+3. 填寫調賬信息：
     1. 業務分類：即業務碼，選擇調賬流水需要添加的業務場景
     2. 公司銀行卡&客戶銀行卡：非必填項，若調賬為出入金場景可以根據實際業務情況選擇對應銀行卡信息，便於數據記錄
     3. 調賬標記：非必填項，第三方和支票僅根據實際調賬場景做標記使用
@@ -381,9 +379,9 @@ sidebar_position: 2
 <b>操作說明</b>：
 
 1. 列表頁記錄包含後台操作流水和客戶 App 上自主操作的轉賬流水
-2. 在列表页的右上角點擊【新建】可以進入賬户間轉賬；或者【批量新建】進行批量轉賬
+2. 在列表页的右上角點擊【轉賬】可以進入賬户間轉賬
 
-<img src="/assets/EJNWb5WEIoL7KMxy0V6cGW7onod.png" src-width="3312" src-height="1462" align="center"/>
+<img src="/assets/Zahjbhc3hodNSqxFomEcvIHQnkh.png" src-width="3296" src-height="1580" align="center"/>
 
 1. 賬戶間轉賬頁面如下圖：
 
@@ -396,8 +394,6 @@ sidebar_position: 2
 - 按實際業務需求填寫轉賬信息，若轉賬金額超出可轉出金額，頁面會提示，但不會強制限制轉賬
 
 <img src="/assets/BADSbujGtocDJBxlI8Ecnrmxnsf.png" src-width="3272" src-height="1772" align="center"/>
-
-❤️Tips：因轉賬金額不強校驗超限，批量轉賬時請提前確認轉賬客戶資產再做處理。
 
 1. 確認後提交審批，審批進度可以在列表頁的操作查看
 
@@ -416,9 +412,9 @@ sidebar_position: 2
 <b>操作說明</b>：
 
 1. 列表頁記錄包含後台操作流水和客戶 App 上自主操作的轉倉流水
-2. 在列表頁的右上角點擊【新建】可以進入賬户間轉倉；或者【批量新建】進行批量轉倉
+2. 在列表頁的右上角點擊【轉倉】可以進入賬户間轉倉
 
-<img src="/assets/PiwXbqj1uo1uvxx8FXOcA7FKnxh.png" src-width="3306" src-height="1470" align="center"/>
+<img src="/assets/LNBhbuj5xokEVqx3eLMcST7NnUb.png" src-width="3294" src-height="1570" align="center"/>
 
 1. 賬戶間轉倉頁面如下圖：
 
@@ -431,8 +427,6 @@ sidebar_position: 2
 - 按實際業務需求填寫轉倉信息，若轉倉數量超出可轉出數量，頁面會提示，但不會強制限制轉倉
 
 <img src="/assets/HF98bjkA4ozVwIx01BTcg10Fnfg.png" src-width="3340" src-height="1828" align="center"/>
-
-❤️Tips：因轉倉數量不強校驗超限，批量轉倉時請提前確認客戶持倉再做處理。
 
 1. 確認後提交審批，審批進度可以在列表頁的操作查看
 
@@ -481,11 +475,11 @@ sidebar_position: 2
 
 1. 進入菜單，查看所有業務碼分組
 
-<img src="/assets/XmhebJJDyoqJomxEsTncZTZ9nSe.png" src-width="3216" src-height="626" align="center"/>
+<img src="/assets/UjufbgoGNoBHWoxgZ1HccNdKnjb.png" src-width="3170" src-height="630" align="center"/>
 
 1. 詳情僅支持查看，如需更改分組信息，點擊編輯進入；業務碼選擇框勾選業務碼則會在對應類型調賬的業務分類展示，取消勾選則不展示
 
-<img src="/assets/BiI7b3ZUhomS9vxa8jFc29mSnch.png" src-width="3250" src-height="1758" align="center"/>
+<img src="/assets/L0zib6BL1oiCbfxkWwfcbbI6nlg.png" src-width="3156" src-height="1552" align="center"/>
 
 <img src="/assets/D52cbO4mZofAEgxOaQ3cTNxsnlg.png" src-width="3240" src-height="1768" align="center"/>
 
