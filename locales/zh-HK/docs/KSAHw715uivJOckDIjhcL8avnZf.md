@@ -1,7 +1,7 @@
 ---
 title: 系統介紹
 slug: KSAHw715uivJOckDIjhcL8avnZf
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 
@@ -14,8 +14,6 @@ sidebar_position: 5
 根據客戶是否參與公司行動，可將公司行動分爲強制類和自願類（可選擇）。強制類公司行動，客戶無需採取任何操作即可參與的行動，例如普通分紅。自願類公司行動，客戶需要採取一定的操作才能參與的行動，例如供股、選股選息。兩種類型公司行動的流程略有差異
 
 在公司行動處理過程中，還會和清算服務、消息中心、資產服務產生互動
-
-<img src="/assets/FFVLw4DV6hN52tb38CscOQDjnhg-board.png" src-width="799" src-height="519"/>
 
 <b>操作流程</b>
 
@@ -67,8 +65,6 @@ ADR（ADR 費用）
 SO（剝離）
 
 IP（利息支付）
-
-       VT（股東大會）
 
 # 二、系統設定
 
@@ -558,7 +554,6 @@ BE 類各方案的數量之和必須等於可行權數量（持倉數量）
 <tr><td><p>ADR 執行</p></td><td><img src="/assets/NcBYbOwUDoe0cyxqkKxcDeIAnBe.png" src-width="1268" src-height="222" align="center"/></td></tr>
 <tr><td><p>紅利、紅股</p></td><td><img src="/assets/MunrbSleWoqnCoxWhDTcTy2in46.png" src-width="1210" src-height="274" align="center"/></td></tr>
 <tr><td><p>期權公司行動</p></td><td><img src="/assets/YkosbXVRsovl39xdOGOcEIamnBc.png" src-width="1182" src-height="334" align="center"/></td></tr>
-<tr><td><p>股東大會</p></td><td><img src="/assets/U7PCbViUNoCdrixpEuNcC3DqnDe.png" src-width="1238" src-height="310" align="center"/></td></tr>
 </tbody>
 </table>
 
