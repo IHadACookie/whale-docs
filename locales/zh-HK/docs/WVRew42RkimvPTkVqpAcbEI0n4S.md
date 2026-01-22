@@ -31,6 +31,4 @@ sidebar_position: 3
 - Yonyou U8 V.13
 - FlexAccount V11
 - Sage300 AOM (GL)
-- MYOB
-- kingdee
 
