@@ -11,8 +11,6 @@ sidebar_position: 2
 
 對於出金、入金以及公司銀行帳單對接過程中，都會使用到銀行卡，該功能是一個基礎資訊配置的功能。所涉相關模關係組主要如下：
 
-<img src="/assets/P5VTwJAiChg4GMb9cVQclD7Wngd-board.png"/>
-
 # 二、操作說明
 
 無論是在 APP 新建銀行卡或後台（WBO）新建銀行卡，需要先將銀行卡的屬性進行維護，入銀行卡所在的地區以及所屬的銀行。
@@ -85,9 +83,9 @@ sidebar_position: 2
 
 <img src="/assets/DhT1bf3GBosoANxxVULcDMAAnwb.png" src-width="2862" src-height="800" align="center"/>
 
-- 關聯客戶加款明細後或者可以不關聯入金記錄，系統將自動將入金見證狀態設為「已見證」
+- 關聯客戶加款明細後，系統將自動將入金見證狀態設為「已見證」
 
-<img src="/assets/SQEZbTMIHoyzCuxFWE2cVM2Bn2b.png" src-width="3314" src-height="1748" align="center"/>
+<img src="/assets/VRJNbJ7YwoJAUxxbs2scnkHQnSQ.png" src-width="2354" src-height="1224" align="center"/>
 
 <img src="/assets/FEx9bqjA4oneQuxII94cqlvgnWt.png" src-width="2360" src-height="676" align="center"/>
 
