@@ -13,8 +13,6 @@ sidebar_position: 2
 
 Whale 系统包含了存入申请、存入明细、便捷导入参数设置、电子邮件通知券商等功能，流程支援了不同角色的审核要求，有效地提升了证券存入的精确性。整体流程架构如下：
 
-<img src="/assets/LmxHwUyIbhPgxvbvVoccR0LSnUd-board.png" src-width="745" src-height="408"/>
-
 # 二、操作说明
 
 <div class="callout callout-bg-6 callout-border-6">
@@ -32,7 +30,6 @@ Whale 系统包含了存入申请、存入明细、便捷导入参数设置、�
 
 <img src="/assets/Rs8lbixwro3MMExotmlcy7Uqnwe.png" src-width="2076" src-height="2469" align="center"/>
 
-- 如转入的股票为实物股票，则在“是否为实物股票”点选是
 - 驳回（<b>可批量操作）</b>：若客户递交证券存入申请资料有误或使用者反馈本次申请无效时，操作员可以进行【驳回】操作
 - 通知券商：由于转仓业务需要对方券商的配合，在实际操作过程中，为了能够顺利转入，用户通常会联络券商及时处理。此功能将提供邮件发送功能，并根据邮件发送的结果显示给用户是否已经通知了券商，以便于用户进一步处理业务。
     - 选择需要寄送邮件的券商机构，系统会自动带出对方券商的邮件地址，操作员可检查邮箱是否正确
