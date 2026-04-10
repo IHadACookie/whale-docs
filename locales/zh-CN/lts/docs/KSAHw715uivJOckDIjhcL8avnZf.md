@@ -1,7 +1,7 @@
 ---
 title: 系统介绍
 slug: KSAHw715uivJOckDIjhcL8avnZf
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 
@@ -14,8 +14,6 @@ sidebar_position: 5
 根据客户是否参与公司行动，可将公司行动分为强制类和自愿类（可选择）。强制类公司行动，客户无需采取任何操作即可参与的行动，例如普通分红。自愿类公司行动，客户需要采取一定的操作才能参与的行动，例如供股、选股选息。两种类型公司行动的流程略有差异
 
 在公司行动处理过程中，还会和清算服务、消息中心、资产服务产生互动
-
-<img src="/assets/FFVLw4DV6hN52tb38CscOQDjnhg-board.png" src-width="799" src-height="519"/>
 
 <b>操作流程</b>
 
@@ -67,8 +65,6 @@ ADR（ADR 费用）
 SO（剥离）
 
 IP（利息支付）
-
-       VT（股东大会）
 
 # 二、系统设定
 
@@ -558,7 +554,6 @@ BE 类各方案的数量之和必须等于可行权数量（持仓数量）
 <tr><td><p>ADR 执行</p></td><td><img src="/assets/NcBYbOwUDoe0cyxqkKxcDeIAnBe.png" src-width="1268" src-height="222" align="center"/></td></tr>
 <tr><td><p>红利、红股</p></td><td><img src="/assets/MunrbSleWoqnCoxWhDTcTy2in46.png" src-width="1210" src-height="274" align="center"/></td></tr>
 <tr><td><p>期权公司行动</p></td><td><img src="/assets/YkosbXVRsovl39xdOGOcEIamnBc.png" src-width="1182" src-height="334" align="center"/></td></tr>
-<tr><td><p>股东大会</p></td><td><img src="/assets/U7PCbViUNoCdrixpEuNcC3DqnDe.png" src-width="1238" src-height="310" align="center"/></td></tr>
 </tbody>
 </table>
 
